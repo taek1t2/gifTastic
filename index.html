@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Laugh of the Day</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <!--button placements-->
+        <div class= "funnyAnimals">
+            <button data-funny="faces">Faces</button>
+            <button data-funny="dogs">Dog</button>
+            <button data-funny="cat">Cat</button>
+            <div id="buttons-view"></div>
+        </div>
+        <!--search/ submit button is here-->
+        <form action="/action_page.php">
+            Create another Gif here<br>
+            <label for="gif-input">Add one here</label>
+            <input id="gif-input" name="Animal Name">
+            <br>
+            <input id="add-gif" type="submit" value="Submit">
+        </form> 
+        <!--Possibly add new gifs on search bar-->
+        <!--search bar or adding another button to search a gif relating the word and also creating FORM tag with <br>-->
+        <div id="images"></div>
+        <div id="gifs-appear-here"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="assets/app.js"></script>
+    
+    </body>
+
+</html>
